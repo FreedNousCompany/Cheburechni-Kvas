@@ -1,0 +1,797 @@
+[14:20:55] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[14:20:55] [ForkJoinPool-1-worker-10/WARN]: Mod treechop uses the version 0.19.3a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:20:55] [main/WARN]: Warnings were found!
+ - Mod 'Simply Swords' (simplyswords) 1.60.11-1.21.1 recommends version 1.7.2 or later of bettercombat, which is missing!
+	 - You should install version 1.7.2 or later of bettercombat for the optimal experience.
+[14:20:55] [main/INFO]: Loading 159 mods:
+	- accessories 1.1.0-beta.43+1.21.1
+	- amendments 1.21-1.2.24
+	- appleskin 3.0.6+mc1.21
+	- architectury 13.0.8
+	- athena 4.0.1
+	- bosses_of_mass_destruction 1.10.2-1.21.1
+	   \-- multipart_entities 1.7-1.21
+	- cardinal-components 6.1.2
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-block 6.1.2
+	   |-- cardinal-components-chunk 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   |-- cardinal-components-item 6.1.2
+	   |-- cardinal-components-level 6.1.2
+	   |-- cardinal-components-scoreboard 6.1.2
+	   \-- cardinal-components-world 6.1.2
+	- carryon 2.2.2
+	- chipped 4.0.2
+	- chunky 1.4.23
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- creativecore 2.13.5
+	   \-- net_neoforged_bus 7.2.0
+	- cristellib 1.2.8
+	   \-- blue_endless_jankson 1.2.3
+	- distanthorizons 2.3.2-b
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   \-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	- entityculling 1.7.4
+	- exposure 1.9.7
+	- fabric-api 0.116.2+1.21.1
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.30+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.1.1+d5debaed19
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.14+248df81c19
+	   |-- fabric-registry-sync-v0 5.3.0+b7e751e819
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.89+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabric-language-kotlin 1.13.3+kotlin.2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- forgeconfigapiport 21.1.3
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- framework 0.9.6
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- fzzy_config 0.7.0+1.21
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- geckolib 4.7.5.1
+	- glitchcore 2.1.0.0
+	   \-- net_jodah_typetools 0.6.3
+	- inventorymanagement 1.6.0
+	- jade 15.10.1+fabric
+	- java 24
+	- justzoom 2.1.0
+	- konkrete 1.9.9
+	- lanserverproperties 1.13.2
+	- lithium 0.15.0+mc1.21.1
+	- mcwfurnitures 3.3.0
+	- minecraft 1.21.1
+	- moonlight 1.21-2.18.13
+	- movingelevators 1.4.11
+	- mr_guns 5.7.3
+	- noisium 2.3.0+mc1.21-1.21.1
+	- oracle_index 0.3.0
+	   |-- ai_djl_api 0.31.1
+	   |-- ai_djl_huggingface_tokenizers 0.31.1
+	   |-- com_microsoft_onnxruntime_onnxruntime 1.20.0
+	   |-- dev_langchain4j_langchain4j 1.0.0
+	   |-- dev_langchain4j_langchain4j-core 1.0.0
+	   |-- dev_langchain4j_langchain4j-embeddings 1.0.0-beta5
+	   |-- dev_langchain4j_langchain4j-embeddings-all-minilm-l6-v2-q 1.0.0-beta5
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_apache_opennlp_opennlp-tools 2.5.4
+	   \-- org_jsoup_jsoup 1.17.2
+	- owo 0.12.15.4+1.21
+	   |-- io_wispforest_endec 0.1.5.1
+	   |-- io_wispforest_endec_gson 0.1.3.1
+	   |-- io_wispforest_endec_jankson 0.1.3.1
+	   \-- io_wispforest_endec_netty 0.1.2
+	- playit_fabric 1.3.2
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.14.2
+	   |-- com_fasterxml_jackson_core_jackson-core 2.14.2
+	   \-- com_fasterxml_jackson_core_jackson-databind 2.14.2
+	- pointblank 1.9.6
+	- refurbished_furniture 1.0.12
+	- resourcefullib 3.0.12
+	   |-- com_teamresourceful_bytecodecs 1.1.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- roughlyenoughitems 16.0.799
+	   \-- error_notifier 1.0.11
+	- simplehats 0.4.0
+	- simplyswords 1.60.11-1.21.1
+	- sound_physics_remastered 1.21.1-1.4.12
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.18+a
+	- supplementaries 1.21-3.1.8
+	   \-- mixinsquared 0.1.1
+	- t_and_t 1.13.2
+	- terralith 2.5.8
+	- toughasnails 10.1.0.13
+	   \-- net_jodah_typetools 0.6.3
+	- travelersbackpack 10.1.22
+	- treechop 0.19.3a
+	- xaerominimap 25.2.6
+	- yet_another_config_lib_v3 3.6.6+1.21.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yigd 2.4.16
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- libgui 11.1.0+1.21
+	        |-- jankson 8.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+[14:20:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/korar/Documents/github/Minecraft%20Servers/Чебуречный%20Квас/Чебуречный%20Квас/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:20:55] [main/INFO]: Compatibility level set to JAVA_17
+[14:20:55] [main/INFO]: Compatibility level set to JAVA_21
+[14:20:56] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:20:56] [main/WARN]: Mod 'supplementaries' attempted to override option 'mixins.block.moving_block_shapes', which doesn't exist, ignoring
+[14:20:56] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[14:20:56] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[14:20:56] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[14:20:56] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[14:20:56] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[14:20:56] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[14:20:56] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 1 override(s) found
+[14:20:56] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:20:56] [main/INFO]: Force-disabling mixin 'block.moving_block_shapes.PistonMovingBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[14:20:56] [main/INFO]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[14:20:56] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[14:20:56] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[14:20:56] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[14:20:56] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[14:20:56] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[14:20:56] [main/WARN]: Error loading class: net/minecraft/class_7766 (java.lang.ClassNotFoundException: net/minecraft/class_7766)
+[14:20:56] [main/WARN]: @Mixin target net.minecraft.class_7766 was not found pointblank.fabric.mixins.json:SpriteLoaderMixin from mod pointblank
+[14:20:56] [main/WARN]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing/farmersdelight/common/block/TomatoVineBlock)
+[14:20:56] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[14:20:56] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[14:20:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:21:02] [main/INFO]: Reflections took 108 ms to scan 1 urls, producing 9 keys and 76 values
+[14:21:02] [main/ERROR]: No data fixer registered for seat
+[14:21:03] [main/INFO]: Registering Listeners!
+[14:21:03] [main/INFO]: Loaded config amendments-common.json
+[14:21:04] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[14:21:04] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[14:21:04] [main/ERROR]: No data fixer registered for water_purifier
+[14:21:04] [main/ERROR]: No data fixer registered for temperature_gauge
+[14:21:04] [main/ERROR]: No data fixer registered for thermoregulator
+[14:21:05] [main/INFO]: Skipping saving inventorymanagement config to file because nothing has changed.
+[14:21:05] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[14:21:05] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
+[14:21:05] [main/INFO]: ---------------------------
+[14:21:05] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[14:21:05] [main/INFO]:  
+[14:21:05] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[14:21:05] [main/INFO]: Open Imaging is licensed under Apache-2.0.
+[14:21:05] [main/INFO]:  
+[14:21:05] [main/INFO]: JsonPath Copyright © 2017 Jayway.
+[14:21:05] [main/INFO]: JsonPath is licensed under Apache-2.0.
+[14:21:05] [main/INFO]:  
+[14:21:05] [main/INFO]: Json-smart Copyright © netplex.
+[14:21:05] [main/INFO]: Json-smart is licensed under Apache-2.0.
+[14:21:05] [main/INFO]:  
+[14:21:05] [main/INFO]: Exp4j Copyright © Frank Asseg.
+[14:21:05] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[14:21:05] [main/INFO]: ---------------------------
+[14:21:05] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[14:21:05] [main/INFO]: Loading Noisium.
+[14:21:05] [main/INFO]: Hello from the Oracle Wiki Mod!
+[14:21:05] [main/INFO]: chyz: bro, can you stop breathing
+[14:21:05] [main/INFO]: Loading mod pointblank
+[14:21:05] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: .\pointblank
+[14:21:05] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+[14:21:05] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+[14:21:05] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+[14:21:05] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+[14:21:05] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:516)
+[14:21:05] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:445)
+[14:21:05] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:426)
+[14:21:05] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:263)
+[14:21:05] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
+[14:21:05] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
+[14:21:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+[14:21:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
+[14:21:05] [main/INFO]: [STDERR]: 	at knot//net.minecraft.server.Main.main(Main.java:111)
+[14:21:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+[14:21:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[14:21:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+[14:21:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+[14:21:05] [main/INFO]: [STDERR]: 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+[14:21:05] [main/ERROR]: No data fixer registered for javelin_rocket
+[14:21:05] [main/ERROR]: No data fixer registered for grenade
+[14:21:05] [main/ERROR]: No data fixer registered for at4_rocket
+[14:21:05] [main/ERROR]: No data fixer registered for grenade40mm
+[14:21:05] [main/ERROR]: No data fixer registered for grenade20mm
+[14:21:05] [main/ERROR]: No data fixer registered for smaw_rocket
+[14:21:05] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[14:21:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[14:21:05] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[14:21:05] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[14:21:05] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[14:21:05] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[14:21:05] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[14:21:05] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[14:21:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[14:21:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[14:21:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[14:21:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[14:21:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[14:21:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[14:21:05] [main/ERROR]: No data fixer registered for hatdisplay
+[14:21:05] [main/INFO]: Loaded 293 hat entries from simplehats.json
+[14:21:05] [main/INFO]: Generated 294 hat items from hat entries.
+[14:21:05] [main/INFO]: Loaded config simplyswords:general in 159ms
+[14:21:05] [main/INFO]: Loaded config simplyswords:gem_powers in 138ms
+[14:21:05] [main/INFO]: Loaded config simplyswords:status_effects in 2ms
+[14:21:05] [main/INFO]: Loaded config simplyswords:weapon_attributes in 33ms
+[14:21:05] [main/INFO]: Loaded config simplyswords:unique_effects in 67ms
+[14:21:06] [main/ERROR]: No data fixer registered for battlestandard
+[14:21:06] [main/ERROR]: No data fixer registered for battlestandarddark
+[14:21:06] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
+[14:21:06] [main/ERROR]: No data fixer registered for simplyswords:thrown_sword
+[14:21:06] [main/ERROR]: No data fixer registered for simplyswords:frostfall_entity
+[14:21:06] [main/ERROR]: No data fixer registered for simplyswords:livyatan_entity
+[14:21:06] [main/ERROR]: No data fixer registered for simplyswords:spear_entity
+[14:21:06] [main/ERROR]: No data fixer registered for simplyswords:runic_entity
+[14:21:06] [main/INFO]: [STDOUT]: C:\Users\korar\Documents\github\Minecraft Servers\Чебуречный Квас\Чебуречный Квас\config
+[14:21:06] [main/INFO]: Loaded config supplementaries-common.json
+[14:21:06] [main/ERROR]: No data fixer registered for 
+[14:21:06] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[14:21:06] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[14:21:06] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[14:21:06] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[14:21:06] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 4
+[14:21:06] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:water_canteen for Water (Fluid Amount Required: 200) with the ID 5
+[14:21:06] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:water for Water (Fluid Amount Required: 81000) with the ID 6
+[14:21:06] [main/INFO]: Initializing Distant Horizons server.
+[14:21:06] [main/INFO]: Distant Horizons, Version: 2.3.2-b
+[14:21:06] [main/INFO]: Registering Fabric Server Events
+[14:21:06] [main/INFO]: Distant Horizons server Initialized.
+[14:21:06] [main/INFO]: Initialized block sets in 18ms
+[14:21:06] [main/ERROR]: No data fixer registered for falling_lantern
+[14:21:06] [main/ERROR]: No data fixer registered for dispenser_minecart
+[14:21:06] [main/ERROR]: No data fixer registered for falling_urn
+[14:21:06] [main/ERROR]: No data fixer registered for falling_ash
+[14:21:06] [main/ERROR]: No data fixer registered for falling_sack
+[14:21:06] [main/ERROR]: No data fixer registered for brick_projectile
+[14:21:06] [main/ERROR]: No data fixer registered for slimeball_projectile
+[14:21:06] [main/ERROR]: No data fixer registered for bomb
+[14:21:06] [main/ERROR]: No data fixer registered for cannonball
+[14:21:06] [main/ERROR]: No data fixer registered for rope_arrow
+[14:21:06] [main/ERROR]: No data fixer registered for slingshot_projectile
+[14:21:06] [main/INFO]: Loaded config moonlight-common.json
+[14:21:07] [main/INFO]: Initialized color sets in 51ms
+[14:21:07] [main/INFO]: Finished mod setup in: [0, 0, 0, 0, 1, 10, 5, 0] ms
+[14:21:07] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14:21:07] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:21:07] [main/INFO]: Found new data pack accessories, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack amendments, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack bosses_of_mass_destruction, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack carryon, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack chipped, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack exposure, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack fabric, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack mcwfurnitures, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack moonlight, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack movingelevators, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack mr_guns, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack pointblank, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack pointblank_resources, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack refurbished_furniture, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack simplehats, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack simplyswords, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack supermartijn642corelib, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack supplementaries, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack supplementaries:generated_pack, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack t_and_t, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack terralith, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack toughasnails, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack travelersbackpack, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack treechop, loading it automatically
+[14:21:07] [main/INFO]: Found new data pack yigd, loading it automatically
+[14:21:07] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 16 ms
+[14:21:07] [main/INFO]: No existing world data, creating new world
+[14:21:07] [Worker-Main-3/INFO]: Loaded config simplyswords:loot in 6ms
+[14:21:08] [Worker-Main-3/INFO]: registered playit command
+[14:21:08] [main/ERROR]: Parsing error loading recipe pointblank:g3
+com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key item in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key tag in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]; No key item in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]
+	at knot/com.mojang.serialization.DataResult$Error.md2e2753$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) [server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:764) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:528) [?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [server.jar:1.0.3]
+[14:21:08] [main/INFO]: Loaded 3401 recipes
+[14:21:08] [main/ERROR]: Parsing error loading custom advancement supplementaries:adventure/way_sign: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: supplementaries:way_sing_oak
+[14:21:08] [main/INFO]: Loaded 2396 advancements
+[14:21:08] [main/INFO]: Applied 7 data villager trades
+[14:21:08] [main/INFO]: [REI] ****************************************
+[14:21:08] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[14:21:08] [main/INFO]: [REI] Plugins (3):
+[14:21:08] [main/INFO]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:21:08] [main/INFO]: [REI]  - (0,00) FabricFluidAPISupportPlugin
+[14:21:08] [main/INFO]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:21:08] [main/INFO]: [REI] ****************************************
+[14:21:08] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14:21:08] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[14:21:08] [main/INFO]: [REI] Plugins (3):
+[14:21:08] [main/INFO]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:21:08] [main/INFO]: [REI]  - (0,00) FabricFluidAPISupportPlugin
+[14:21:08] [main/INFO]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:21:08] [main/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14:21:08] [main/INFO]: [REI] REIPlugin finished post-reload for START in 811.7 μs, totaling 18.18 ms.
+[14:21:08] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 227.0 μs, totaling 2.645 ms.
+[14:21:08] [main/INFO]: [REI] ****************************************
+[14:21:08] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[14:21:08] [main/INFO]: [REI] Plugins (3):
+[14:21:08] [main/INFO]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:21:08] [main/INFO]: [REI]  - (0,00) FabricFluidAPISupportPlugin
+[14:21:08] [main/INFO]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:21:08] [main/INFO]: [REI] ****************************************
+[14:21:08] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[14:21:08] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[14:21:08] [main/INFO]: [REI] Plugins (3):
+[14:21:08] [main/INFO]: [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:21:08] [main/INFO]: [REI]  - (0,00) FabricFluidAPISupportPlugin
+[14:21:08] [main/INFO]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:21:08] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[14:21:08] [main/INFO]: [REI] REIPlugin finished post-reload for END in 402.9 μs, totaling 15.48 ms.
+[14:21:08] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 140.4 μs, totaling 3.333 ms.
+[14:21:08] [main/INFO]: Loaded 27 flute songs
+[14:21:08] [main/INFO]: Reloading grave shape (server)
+[14:21:08] [main/INFO]: Grave model and shape reload successful (server)
+[14:21:08] [main/INFO]: Reloading YIGD graveyard data (server)
+[14:21:08] [main/INFO]: Graveyard data successfully reloaded (server)
+[14:21:08] [main/INFO]: Reloading YIGD grave area overrides (server)
+[14:21:08] [main/INFO]: Grave area overrides successfully reloaded (server)
+[14:21:08] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: thepa:tnt
+[14:21:08] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/lead, c:storage_blocks/lead
+[14:21:09] [main/INFO]: Registering custom dispenser behaviors
+[14:21:09] [main/INFO]: Applied 295 biome modifications to 148 of 159 new biomes in 9.958 ms
+[14:21:09] [Server thread/INFO]: Initialising config for DistantHorizons
+[14:21:09] [Server thread/INFO]: Config for DistantHorizons initialised
+[14:21:09] [Server thread/INFO]: Post-Initializing Mod
+[14:21:09] [Server thread/INFO]: Mod Post-Initialized
+[14:21:09] [Server thread/INFO]: Checking for Distant Horizons update
+[14:21:10] [Server thread/INFO]: Distant Horizons already up to date.
+[14:21:10] [Server thread/INFO]: Dedicated server initialized at 
+[14:21:10] [Server thread/INFO]: Loading server configs...
+[14:21:10] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[14:21:10] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[14:21:10] [Server thread/INFO]: Loading properties
+[14:21:10] [Server thread/INFO]: Default game type: SURVIVAL
+[14:21:10] [Server thread/INFO]: Generating keypair
+[14:21:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:21:10] [Server thread/INFO]: Using default channel type
+[14:21:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:21:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:21:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:21:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:21:10] [Server thread/INFO]: Preparing level "Выжа с модами"
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:21:11] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:overworld}] at [[LocalSaveStructure@(.\Выжа с модами\data)]].
+[14:21:11] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[.\Выжа с модами\data]...
+[14:21:11] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[14:21:11] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[14:21:12] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
+[14:21:12] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
+[14:21:12] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[14:21:12] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:21:14] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[.\Выжа с модами\DIM-1\data]...
+[14:21:14] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[14:21:14] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[14:21:14] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:the_nether}] at [[LocalSaveStructure@(.\Выжа с модами\data;.\Выжа с модами\DIM-1\data)]].
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:21:14] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[.\Выжа с модами\DIM1\data]...
+[14:21:14] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[14:21:14] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[14:21:14] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:the_end}] at [[LocalSaveStructure@(.\Выжа с модами\data;.\Выжа с модами\DIM-1\data;.\Выжа с модами\DIM1\data)]].
+[14:21:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:21:14] [Worker-Main-10/INFO]: Preparing spawn area: 2%
+[14:21:14] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[14:21:15] [Worker-Main-10/INFO]: Preparing spawn area: 18%
+[14:21:15] [Worker-Main-14/INFO]: Preparing spawn area: 38%
+[14:21:16] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[14:21:16] [Server thread/INFO]: Time elapsed: 2309 ms
+[14:21:16] [Server thread/INFO]: Done (5.914s)! For help, type "help"
+[14:21:16] [Server thread/INFO]: Start loading plugin from Exposure: io.github.mortuusars.exposure.integration.jade.ExposureJadePlugin
+[14:21:16] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[14:21:16] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[14:21:16] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[14:21:16] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[14:21:16] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[14:21:16] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[14:21:16] [Server thread/INFO]: Start loading plugin from HT's TreeChop: ht.treechop.compat.Jade
+[14:21:17] [Thread-31/INFO]: secret key found, checking
+[14:21:17] [Thread-31/INFO]: check secret
+[14:21:17] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14:21:17] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[14:21:17] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[14:21:17] [Server thread/INFO]: Batch Chunk Generator initialized
+[14:21:17] [Server thread/INFO]: Creating world gen queue
+[14:21:17] [Server thread/INFO]: Created world gen queue
+[14:21:17] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[14:21:17] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[14:21:17] [Server thread/INFO]: Batch Chunk Generator initialized
+[14:21:17] [Server thread/INFO]: Creating world gen queue
+[14:21:17] [Server thread/INFO]: Created world gen queue
+[14:21:17] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[14:21:17] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[14:21:17] [Server thread/INFO]: Batch Chunk Generator initialized
+[14:21:17] [Server thread/INFO]: Creating world gen queue
+[14:21:17] [Server thread/INFO]: Created world gen queue
+[14:21:17] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[14:21:17] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[14:21:18] [Thread-31/INFO]: found minecraft java tunnel: for-jefferson.joinmc.link
+[14:21:18] [Thread-31/INFO]: keys and tunnel setup
+[14:22:21] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:40338, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -99, -110, -20, -31, 48, 112, -85, 10, 104, 78, -41, 11, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -126, 112, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 53, -3, 91, -56, -48, -122, 8, -71, -49, 101, 72, 72, -76, -21, 26, -18], tunnelServerId=1, dataCenterId=44}
+[14:22:21] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:21] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:21] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
+[14:22:21] [nioEventLoopGroup-2-1/INFO]: claim token sent
+[14:22:21] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
+[14:22:21] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:21] [nioEventLoopGroup-2-1/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:21] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:21] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
+[14:22:22] [Thread-31/INFO]: got new client: NewClient{connectAddr=[2602:fbaf:080c:0001:0000:0000:0000:00c2]:60258, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:39482, claimAddress=209.25.141.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, -62, -21, 98, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -102, 58, 0, 0, 0, 0, -60, 117, 114, -64, -85, 10, 104, 78, -41, 12, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -38, -64, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, -86, -71, -80, 2, 59, -70, -32, 122, 49, -113, 20, -3, -127, 96, -8, 105], tunnelServerId=1, dataCenterId=44}
+[14:22:22] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:22] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:22] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
+[14:22:22] [nioEventLoopGroup-2-3/INFO]: claim token sent
+[14:22:22] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
+[14:22:22] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:22] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:22] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:22] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
+[14:22:23] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:40340, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -99, -108, 115, 20, 116, 75, -85, 10, 104, 78, -41, 12, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -54, 75, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 8, 94, 113, -82, 68, -87, 8, 77, -65, 27, -13, 63, -85, 83, -14, 55], tunnelServerId=1, dataCenterId=44}
+[14:22:23] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:23] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:23] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:40342, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -99, -106, 59, -38, 90, 109, -85, 10, 104, 78, -41, 12, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -66, 109, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 42, -45, -17, 74, 87, 88, -49, 88, 118, 9, -45, -40, 35, -31, 106, 67], tunnelServerId=1, dataCenterId=44}
+[14:22:23] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:23] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:23] [nioEventLoopGroup-2-5/INFO]: connected to tunnel server, sending claim token
+[14:22:23] [nioEventLoopGroup-2-5/INFO]: claim token sent
+[14:22:23] [nioEventLoopGroup-2-6/INFO]: connected to tunnel server, sending claim token
+[14:22:23] [nioEventLoopGroup-2-6/INFO]: claim token sent
+[14:22:23] [nioEventLoopGroup-2-5/INFO]: connection to tunnel server has been established
+[14:22:23] [nioEventLoopGroup-2-5/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:23] [nioEventLoopGroup-2-5/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:23] [nioEventLoopGroup-2-5/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:23] [nioEventLoopGroup-2-6/INFO]: connection to tunnel server has been established
+[14:22:23] [nioEventLoopGroup-2-7/INFO]: connected to local minecraft server
+[14:22:23] [nioEventLoopGroup-2-6/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:23] [nioEventLoopGroup-2-6/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:23] [nioEventLoopGroup-2-6/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:23] [nioEventLoopGroup-2-8/INFO]: connected to local minecraft server
+[14:22:23] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:40348, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -99, -100, 12, -114, -4, 34, -85, 10, 104, 78, -41, 13, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -22, 34, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 43, -97, 125, -94, -80, -5, 123, -43, 77, -34, 48, 60, 58, -105, 39, -49], tunnelServerId=1, dataCenterId=44}
+[14:22:23] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:23] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:23] [nioEventLoopGroup-2-9/INFO]: connected to tunnel server, sending claim token
+[14:22:23] [nioEventLoopGroup-2-9/INFO]: claim token sent
+[14:22:23] [nioEventLoopGroup-2-9/INFO]: connection to tunnel server has been established
+[14:22:23] [nioEventLoopGroup-2-9/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:23] [nioEventLoopGroup-2-9/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:23] [nioEventLoopGroup-2-9/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:23] [nioEventLoopGroup-2-10/INFO]: connected to local minecraft server
+[14:22:24] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:40362, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -99, -86, -109, 101, -68, 55, -85, 10, 104, 78, -41, 13, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -5, 55, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 94, -2, 99, 37, 25, -87, -36, -100, -28, 63, 109, -16, 80, 110, 9, -96], tunnelServerId=1, dataCenterId=44}
+[14:22:24] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:24] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:24] [nioEventLoopGroup-2-11/INFO]: connected to tunnel server, sending claim token
+[14:22:24] [nioEventLoopGroup-2-11/INFO]: claim token sent
+[14:22:24] [nioEventLoopGroup-2-11/INFO]: connection to tunnel server has been established
+[14:22:24] [nioEventLoopGroup-2-11/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:24] [nioEventLoopGroup-2-11/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:24] [nioEventLoopGroup-2-11/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:24] [nioEventLoopGroup-2-12/INFO]: connected to local minecraft server
+[14:22:25] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:40366, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -99, -82, 95, -35, 106, -65, -85, 10, 104, 78, -41, 15, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, 49, -65, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 3, 75, 82, -80, 21, -54, 83, 31, 105, -91, -86, 85, -86, -28, 12, -35], tunnelServerId=1, dataCenterId=44}
+[14:22:25] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:25] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:25] [nioEventLoopGroup-2-13/INFO]: connected to tunnel server, sending claim token
+[14:22:25] [nioEventLoopGroup-2-13/INFO]: claim token sent
+[14:22:25] [nioEventLoopGroup-2-13/INFO]: connection to tunnel server has been established
+[14:22:25] [nioEventLoopGroup-2-13/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:25] [nioEventLoopGroup-2-13/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:25] [nioEventLoopGroup-2-13/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:25] [nioEventLoopGroup-2-14/INFO]: connected to local minecraft server
+[14:22:27] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:42144, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -92, -96, 5, 17, -83, -108, -85, 10, 104, 78, -41, 16, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -19, -108, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 74, 107, 75, 118, 39, -13, 79, -3, 36, -48, -71, -94, 117, -2, -42, 28], tunnelServerId=1, dataCenterId=44}
+[14:22:27] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:27] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:27] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:42148, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -92, -92, 31, 114, -73, -20, -85, 10, 104, 78, -41, 16, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -21, -20, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -97, -26, 34, -60, 62, -83, -29, 73, -66, -108, -58, 124, 30, -128, -118, 27], tunnelServerId=1, dataCenterId=44}
+[14:22:27] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:27] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:27] [nioEventLoopGroup-2-15/INFO]: connected to tunnel server, sending claim token
+[14:22:27] [nioEventLoopGroup-2-16/INFO]: connected to tunnel server, sending claim token
+[14:22:27] [nioEventLoopGroup-2-15/INFO]: claim token sent
+[14:22:27] [nioEventLoopGroup-2-16/INFO]: claim token sent
+[14:22:27] [nioEventLoopGroup-2-15/INFO]: connection to tunnel server has been established
+[14:22:27] [nioEventLoopGroup-2-16/INFO]: connection to tunnel server has been established
+[14:22:27] [nioEventLoopGroup-2-15/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:27] [nioEventLoopGroup-2-15/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:27] [nioEventLoopGroup-2-16/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:27] [nioEventLoopGroup-2-15/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:27] [nioEventLoopGroup-2-16/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:27] [nioEventLoopGroup-2-16/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:27] [nioEventLoopGroup-2-17/INFO]: connected to local minecraft server
+[14:22:27] [nioEventLoopGroup-2-18/INFO]: connected to local minecraft server
+[14:22:27] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:42152, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -92, -88, -63, 72, -7, 117, -85, 10, 104, 78, -41, 17, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, 113, 117, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, -118, 95, 11, 81, -37, -95, 121, -58, 20, 41, -69, 88, -86, -57, 61, -77], tunnelServerId=1, dataCenterId=44}
+[14:22:27] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:27] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:27] [nioEventLoopGroup-2-19/INFO]: connected to tunnel server, sending claim token
+[14:22:27] [nioEventLoopGroup-2-19/INFO]: claim token sent
+[14:22:27] [nioEventLoopGroup-2-19/INFO]: connection to tunnel server has been established
+[14:22:27] [nioEventLoopGroup-2-19/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:27] [nioEventLoopGroup-2-19/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:27] [nioEventLoopGroup-2-19/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:27] [nioEventLoopGroup-2-20/INFO]: connected to local minecraft server
+[14:22:28] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:42156, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -92, -84, 29, -33, -86, 122, -85, 10, 104, 78, -41, 17, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -44, 122, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 81, 68, -72, -119, -56, 47, 110, -106, -89, -54, -124, 81, -32, 52, 97, 1], tunnelServerId=1, dataCenterId=44}
+[14:22:28] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:28] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:28] [nioEventLoopGroup-2-21/INFO]: connected to tunnel server, sending claim token
+[14:22:28] [nioEventLoopGroup-2-21/INFO]: claim token sent
+[14:22:28] [nioEventLoopGroup-2-21/INFO]: connection to tunnel server has been established
+[14:22:28] [nioEventLoopGroup-2-21/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:28] [nioEventLoopGroup-2-21/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:28] [nioEventLoopGroup-2-21/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:28] [nioEventLoopGroup-2-22/INFO]: connected to local minecraft server
+[14:22:44] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:34330, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -122, 26, 110, 13, -84, 106, -85, 10, 104, 78, -41, 33, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -23, 106, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, -74, -72, 81, -105, -120, 7, -2, 28, -6, -16, -21, -64, 79, 42, 64, -117], tunnelServerId=1, dataCenterId=44}
+[14:22:44] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:44] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:44] [nioEventLoopGroup-2-23/INFO]: connected to tunnel server, sending claim token
+[14:22:44] [nioEventLoopGroup-2-23/INFO]: claim token sent
+[14:22:44] [nioEventLoopGroup-2-23/INFO]: connection to tunnel server has been established
+[14:22:44] [nioEventLoopGroup-2-23/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:44] [nioEventLoopGroup-2-23/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:44] [nioEventLoopGroup-2-23/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:44] [nioEventLoopGroup-2-24/INFO]: connected to local minecraft server
+[14:22:47] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:56148, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -37, 84, 27, -71, -95, 41, -85, 10, 104, 78, -41, 36, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -10, 41, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, -94, 11, 58, -101, 85, -34, 60, -59, -101, 96, 37, -87, -51, 15, -96, 28], tunnelServerId=1, dataCenterId=44}
+[14:22:47] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:47] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:47] [nioEventLoopGroup-2-25/INFO]: connected to tunnel server, sending claim token
+[14:22:47] [nioEventLoopGroup-2-25/INFO]: claim token sent
+[14:22:47] [nioEventLoopGroup-2-25/INFO]: connection to tunnel server has been established
+[14:22:47] [nioEventLoopGroup-2-25/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:47] [nioEventLoopGroup-2-25/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:47] [nioEventLoopGroup-2-25/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:47] [nioEventLoopGroup-2-26/INFO]: connected to local minecraft server
+[14:22:50] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=216.128.138.102:56162, claimAddress=209.25.141.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -40, -128, -118, 102, -37, 98, 31, -52, 74, -108, -85, 10, 104, 78, -41, 39, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -118, -108, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 105, 61, -118, 25, 93, 35, 43, 78, 48, -116, -62, -8, -5, 15, -41, 24], tunnelServerId=1, dataCenterId=44}
+[14:22:50] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:50] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:50] [nioEventLoopGroup-2-27/INFO]: connected to tunnel server, sending claim token
+[14:22:50] [nioEventLoopGroup-2-27/INFO]: claim token sent
+[14:22:50] [nioEventLoopGroup-2-27/INFO]: connection to tunnel server has been established
+[14:22:50] [nioEventLoopGroup-2-27/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:50] [nioEventLoopGroup-2-27/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:50] [nioEventLoopGroup-2-27/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:50] [nioEventLoopGroup-2-28/INFO]: connected to local minecraft server
+[14:22:51] [Thread-31/INFO]: got new client: NewClient{connectAddr=[2602:fbaf:082c:0001:0000:0000:0000:00c2]:60258, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:37632, claimAddress=209.25.141.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 44, 0, 1, 0, 0, 0, 0, 0, 0, 0, -62, -21, 98, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -109, 0, 0, 0, 0, 0, -21, -117, -120, 38, -85, 10, 104, 78, -41, 40, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, 29, 38, -85, 10, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 89, -127, -81, 49, -85, 46, -25, -120, -106, 99, 56, 45, -79, 26, 114, 70], tunnelServerId=1, dataCenterId=38}
+[14:22:51] [Thread-31/INFO]: starting tcp tunnel for client
+[14:22:51] [Thread-31/INFO]: start connection to /209.25.141.2:43786 to claim client
+[14:22:51] [nioEventLoopGroup-2-29/INFO]: connected to tunnel server, sending claim token
+[14:22:51] [nioEventLoopGroup-2-29/INFO]: claim token sent
+[14:22:51] [nioEventLoopGroup-2-29/INFO]: connection to tunnel server has been established
+[14:22:51] [nioEventLoopGroup-2-29/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:22:51] [nioEventLoopGroup-2-29/INFO]: failed to get ServerConnection from Minecraft Server
+[14:22:51] [nioEventLoopGroup-2-29/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:22:51] [nioEventLoopGroup-2-30/INFO]: connected to local minecraft server
+[14:23:17] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=185.253.42.39:42542, claimAddress=209.25.141.2:43784, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -71, -3, 42, 39, -90, 46, 95, 112, 15, 0, -85, 8, 104, 78, -41, 66, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, 61, 0, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -102, -43, 119, 116, -31, -98, 91, 49, 33, 127, 22, 55, 73, -116, -72, -74], tunnelServerId=1, dataCenterId=28}
+[14:23:17] [Thread-31/INFO]: starting tcp tunnel for client
+[14:23:17] [Thread-31/INFO]: start connection to /209.25.141.2:43784 to claim client
+[14:23:17] [nioEventLoopGroup-2-31/INFO]: connected to tunnel server, sending claim token
+[14:23:17] [nioEventLoopGroup-2-31/INFO]: claim token sent
+[14:23:17] [nioEventLoopGroup-2-31/INFO]: connection to tunnel server has been established
+[14:23:17] [nioEventLoopGroup-2-31/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:23:17] [nioEventLoopGroup-2-31/INFO]: failed to get ServerConnection from Minecraft Server
+[14:23:17] [nioEventLoopGroup-2-31/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:23:17] [nioEventLoopGroup-2-32/INFO]: connected to local minecraft server
+[14:23:19] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=185.253.42.39:43878, claimAddress=209.25.141.2:43784, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -71, -3, 42, 39, -85, 102, 33, 23, 121, -6, -85, 8, 104, 78, -41, 69, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, 93, -6, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -44, -127, 67, 9, 116, -72, 109, -56, -24, -101, -35, 95, -116, 76, -16, 103], tunnelServerId=1, dataCenterId=28}
+[14:23:19] [Thread-31/INFO]: starting tcp tunnel for client
+[14:23:19] [Thread-31/INFO]: start connection to /209.25.141.2:43784 to claim client
+[14:23:19] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
+[14:23:19] [nioEventLoopGroup-2-1/INFO]: claim token sent
+[14:23:19] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
+[14:23:19] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:23:19] [nioEventLoopGroup-2-1/INFO]: failed to get ServerConnection from Minecraft Server
+[14:23:19] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:23:19] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
+[14:23:25] [Server thread/INFO]: korarao[/127.0.0.1:54596] logged in with entity id 70 at (-21.5, 67.0, -7.5)
+[14:23:25] [Server thread/INFO]: Sending server config values to client
+[14:23:25] [Server thread/INFO]: Loading config from file...
+[14:23:25] [Server thread/INFO]: Player [korarao] joined.
+[14:23:25] [Server thread/INFO]: korarao joined the game
+[14:23:28] [Server thread/INFO]: Priority overwritten for player korarao. Claiming: GRAVE / Robbing: INVENTORY
+[14:23:28] [Server thread/INFO]: Receiving client config
+[14:23:35] [Server thread/INFO]: [korarao: Set own game mode to Creative Mode]
+[14:23:42] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
+[14:23:42] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
+[14:23:42] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
+[14:23:42] [Netty Server IO #19/INFO]: Player [korarao] disconnected.
+[14:23:42] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
+[14:23:42] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
+[14:23:43] [Server thread/INFO]: korarao lost connection: Disconnected
+[14:23:43] [Server thread/INFO]: korarao left the game
+[14:23:48] [Thread-31/INFO]: got new client: NewClient{connectAddr=147.185.221.194:60258, peerAddr=185.253.42.39:40090, claimAddress=209.25.141.2:43784, claimToken=[44, 0, 60, -109, -71, -35, -62, -21, 98, -71, -3, 42, 39, -100, -102, -94, -58, -2, 77, -85, 8, 104, 78, -41, 97, 0, 0, 0, 0, 0, 19, 19, -99, 0, 0, 0, 0, 0, 70, -65, 35, -64, 77, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -59, -83, -63, -10, 58, -35, -67, -71, 102, 90, -42, -51, 5, 51, 29, 1], tunnelServerId=1, dataCenterId=28}
+[14:23:48] [Thread-31/INFO]: starting tcp tunnel for client
+[14:23:48] [Thread-31/INFO]: start connection to /209.25.141.2:43784 to claim client
+[14:23:48] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
+[14:23:48] [nioEventLoopGroup-2-3/INFO]: claim token sent
+[14:23:48] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
+[14:23:48] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:23:48] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
+[14:23:48] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:23:48] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
+[14:23:57] [Server thread/INFO]: Stopping the server
+[14:23:57] [Server thread/INFO]: Stopping server
+[14:23:57] [Server thread/INFO]: Saving players
+[14:23:57] [Server thread/INFO]: Saving worlds
+[14:23:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Выжа с модами]'/minecraft:overworld
+[14:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Выжа с модами]'/minecraft:the_nether
+[14:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Выжа с модами]'/minecraft:the_end
+[14:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (Выжа с модами): All chunks are saved
+[14:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:23:58] [Server thread/INFO]: Unloading level DhServerLevel{bu6m3eg3ck2ai@minecraft:overworld} 
+[14:23:58] [Server thread/INFO]: Closing world gen queue
+[14:23:58] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:23:58] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:23:58] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:23:58] [Server thread/INFO]: BatchGenerator shutting down...
+[14:23:58] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:23:58] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:23:58] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:23:58] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:23:58] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:overworld}].
+[14:23:58] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:overworld}].
+[14:23:58] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[14:23:58] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:.\Выжа с модами\data\DistantHorizons.sqlite]...
+[14:23:58] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:.\Выжа с модами\data\DistantHorizons.sqlite]
+[14:23:58] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:overworld}].
+[14:23:58] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:overworld}].
+[14:23:58] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:overworld}].
+[14:23:58] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:overworld}].
+[14:23:58] [Server thread/INFO]: Unloading level DhServerLevel{bu6m3eg3ck2ai@minecraft:the_nether} 
+[14:23:58] [Server thread/INFO]: Closing world gen queue
+[14:23:58] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:23:58] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:23:58] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:23:58] [Server thread/INFO]: BatchGenerator shutting down...
+[14:23:58] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:23:58] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:23:58] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:23:58] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:23:58] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:the_nether}].
+[14:23:58] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:the_nether}].
+[14:23:58] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[14:23:58] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]...
+[14:23:58] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:.\Выжа с модами\DIM-1\data\DistantHorizons.sqlite]
+[14:23:58] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:the_nether}].
+[14:23:59] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:the_nether}].
+[14:23:59] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:the_nether}].
+[14:23:59] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:the_nether}].
+[14:23:59] [Server thread/INFO]: Unloading level DhServerLevel{bu6m3eg3ck2ai@minecraft:the_end} 
+[14:23:59] [Server thread/INFO]: Closing world gen queue
+[14:23:59] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:23:59] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:23:59] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:23:59] [Server thread/INFO]: BatchGenerator shutting down...
+[14:23:59] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:23:59] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:23:59] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:23:59] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:23:59] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:the_end}].
+[14:23:59] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:the_end}].
+[14:23:59] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[14:23:59] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]...
+[14:23:59] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:.\Выжа с модами\DIM1\data\DistantHorizons.sqlite]
+[14:23:59] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:the_end}].
+[14:23:59] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:the_end}].
+[14:23:59] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{bu6m3eg3ck2ai@minecraft:the_end}].
+[14:23:59] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[Выжа с модами]@minecraft:the_end}].
+[14:23:59] [Server thread/INFO]: Unloading server configs...
+[14:23:59] [Server thread/INFO]: Sending config unload event for refurbished_furniture.server.toml
+[14:23:59] [Server thread/INFO]: Finished unloading server configs
+[14:23:59] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[14:23:59] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[14:23:59] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[14:23:59] [Server thread/INFO]: Closing all [0] database connections...
+[14:23:59] [Server thread/INFO]: stopping playit
+[14:24:00] [Thread-31/INFO]: control channel shutdown
